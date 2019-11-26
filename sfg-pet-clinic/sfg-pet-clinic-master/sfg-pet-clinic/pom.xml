@@ -96,4 +96,9 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/SMacmanus/sfg-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 </project>
