@@ -2,10 +2,12 @@ package com.company.sfgpetclinic.services.map;
 
 import com.company.sfgpetclinic.model.Pet;
 import com.company.sfgpetclinic.services.PetServiceInterface;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 ;
+@Service
 
 public class PetServiceMap extends AbstractMapService <Pet, Long> implements PetServiceInterface {
 
